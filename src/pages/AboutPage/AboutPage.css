@@ -1,0 +1,142 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .about-page {
+    font-family: Arial, sans-serif;
+    color: white;
+    background-image: url('../../assets//img/ocean-7890172_1280.jpg'); /* Replace with your image */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  /* Header */
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: rgba(0, 0, 0, 0.6);
+  }
+  
+  .header .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  .header nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 1rem;
+    font-weight: bold;
+  }
+  
+  .header nav a:hover {
+    color: #00aaff;
+  }
+  
+  /* About Section */
+  .about-section {
+    text-align: center;
+    padding: 3rem 2rem;
+    background: rgba(0, 0, 0, 0.5);
+  }
+  
+  .about-section h1 {
+    font-size: 3rem;
+    font-weight: bold;
+  }
+  
+  .about-section .description {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+    color: #e0e0e0;
+  }
+  
+  /* Team Section */
+  .team-section {
+    text-align: center;
+    padding: 3rem 2rem;
+    background: rgba(0, 0, 0, 0.5);
+  }
+  
+  .team-section h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+  
+  .team-members {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 2rem;
+  }
+  
+  .team-member {
+    width: 200px;
+    text-align: center;
+    padding: 1rem;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+  }
+  
+  .team-member img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+  }
+  
+  .team-member h3 {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  .team-member p {
+    color: #b0b0b0;
+  }
+  
+  .team-member button {
+    margin-top: 0.5rem;
+    padding: 0.5rem 1rem;
+    background-color: #006d77;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .team-member button:hover {
+    background-color: #004f57;
+  }
+  
+  /* Social Media Links */
+  .social-links {
+    position: absolute;
+    left: 2rem;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .social-links a {
+    color: white;
+    font-size: 1.5rem;
+    text-decoration: none;
+  }
+  
+  .social-links a:hover {
+    color: #00aaff;
+  }
+  

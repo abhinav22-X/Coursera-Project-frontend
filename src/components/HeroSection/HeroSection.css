@@ -1,0 +1,36 @@
+.hero-section {
+    position: relative;
+    background: url('../../assets/img/ocean-7890172_1280.jpg') no-repeat center center/cover;
+    height: 100vh;
+    color: white;
+  }
+  
+  .overlay {
+    
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2rem 8rem;
+  }
+  
+  .content h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  
+  .content p {
+    max-width: 600px;
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 1.5rem;
+  }
+  
+  .content button {
+    padding: 0.75rem 1.5rem;
+    background-color: teal;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
